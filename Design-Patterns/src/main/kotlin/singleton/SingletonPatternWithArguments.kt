@@ -1,3 +1,5 @@
+package singleton
+
 /**
  * Singleton-Design-Pattern with arguments
  *

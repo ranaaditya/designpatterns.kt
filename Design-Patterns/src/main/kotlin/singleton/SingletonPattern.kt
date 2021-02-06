@@ -1,3 +1,5 @@
+package singleton
+
 /**
  * for simple purpose use inbuilt object
  *
@@ -49,7 +51,8 @@ public open class SingletonPattern private constructor() {
                 // synchronizing the state to ensure that there is no thread interference
                 synchronized(SingletonPattern::class) {
                     if (instance == null) {
-                        instance = SingletonPattern()
+                        instance =
+                            SingletonPattern()
                     }
                 }
             }
