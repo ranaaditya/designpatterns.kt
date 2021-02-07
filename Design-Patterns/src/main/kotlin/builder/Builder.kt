@@ -47,3 +47,10 @@ class FoodOrder private constructor(builder: FoodOrder.Builder) {
 
 }
 
+// Abstracted and easier call to complex object creation
+val foodOrder = FoodOrder.Builder()
+                .bread("Naan")
+                .condiments("Chilli sausace")
+                .fish("sushi")
+                .meat("freah")
+                .build()
