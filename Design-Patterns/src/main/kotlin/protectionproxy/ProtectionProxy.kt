@@ -1,4 +1,4 @@
-package `protection proxy`
+package protectionproxy
 
 import java.util.*
 

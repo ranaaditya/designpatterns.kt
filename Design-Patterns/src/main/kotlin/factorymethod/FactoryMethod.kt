@@ -1,4 +1,4 @@
-package `factory method`
+package factorymethod
 
 /**
  * @author ranaaditya
