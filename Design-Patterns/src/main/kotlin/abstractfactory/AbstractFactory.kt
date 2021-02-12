@@ -1,4 +1,4 @@
-package `abstract factory`
+package abstractfactory
 
 interface Chat {
     fun getChannels(): List<Channel>
