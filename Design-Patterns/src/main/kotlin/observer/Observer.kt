@@ -2,6 +2,11 @@ package observer
 
 import kotlin.properties.Delegates
 
+/**
+ * @author ranaaditya
+ *
+ * Observer Design pattern
+ */
 interface ChangeListener {
     fun onChangeInitiated(oldValue: Any, changedValue: Any)
 }
