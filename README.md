@@ -1,4 +1,5 @@
 # Kotlin-Design-Patterns
+First step towards clean code  !
 
 ## Design patterns
 
